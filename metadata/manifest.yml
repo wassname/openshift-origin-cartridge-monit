@@ -8,9 +8,9 @@ Version: '5.8'
 Versions:
 - '5.8'
 Cartridge-Version: 0.0.2
-Cartridge-Vendor: mfojtik
+Cartridge-Vendor: worldline
 License: GPL
-Vendor: mfojtik
+Vendor: worldline
 Categories:
 - service
 - embedded
