@@ -1,16 +1,19 @@
-%global cartridgedir %{_libexecdir}/openshift/cartridges/v2/monit
+%global cartridgedir %{_libexecdir}/openshift/cartridges/monit
 
 Summary:       Embedded monit support for OpenShift
 Name:          openshift-origin-cartridge-monit
 Version:       1.0.0
 Release:       1%{?dist}
 Group:         Network/Daemons
-License:       ASL 2.0
+License:       CeCILL
+
 URL:           http://www.openshift.com
 Source0:       http://mirror.openshift.com/pub/openshift-origin/source/%{name}/%{name}-%{version}.tar.gz
+
 Requires:      monit
 Requires:      rubygem(openshift-origin-node)
 Requires:      openshift-origin-node-util
+
 BuildArch:     noarch
 
 %description
