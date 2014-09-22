@@ -2,7 +2,7 @@
 
 Summary:       Embedded monit support for OpenShift
 Name:          openshift-origin-cartridge-monit
-Version:       1.0.2
+Version:       1.0.3
 Release:       1%{?dist}
 Group:         Network/Daemons
 License:       CeCILL
@@ -45,6 +45,9 @@ Provides monit cartridge support to OpenShift
 %doc %{cartridgedir}/README.md
 
 %changelog
+* Mon Sep 22 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.3-1
+- Up install file
+
 * Fri Sep 19 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.2-1
 - Delete bin/install file (nicolas.messin@worldline.com)
 
