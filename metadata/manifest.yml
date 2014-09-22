@@ -14,6 +14,7 @@ Vendor: worldline
 Categories:
 - service
 - embedded
+- plugin
 Website: http://collectd.org
 Provides:
 - monit-5.8
