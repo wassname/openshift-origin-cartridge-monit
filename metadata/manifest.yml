@@ -12,7 +12,6 @@ Cartridge-Vendor: worldline
 License: GPL
 Vendor: worldline
 Categories:
-- service
 - embedded
 - plugin
 Website: http://collectd.org
