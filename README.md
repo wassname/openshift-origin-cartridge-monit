@@ -14,7 +14,7 @@ rhc env set MONIT_ALERT_EMAIL=my@email.com -a YOUR_APP
 After this, you can add this cartridge to your application:
 
 ```
-rhc cartridge-add http://goo.gl/jiIB2C -a YOUR_APP
+rhc cartridge-add https://raw.githubusercontent.com/wassname/openshift-origin-cartridge-monit/master/metadata/manifest.yml -a YOUR_APP
 ```
 
 ## What you get for free :-)
