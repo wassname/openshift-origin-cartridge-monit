@@ -29,7 +29,7 @@ function start() {
     dump_environment  # Save the current 'env' into a file that is later sourced
                       # to monit start/stop scripts
     update_monitrc
-    monit -c ${OPENSHIFT_MONITRC}
+    ${OPENSHIFT_MONIT_DIR}bin/monit -c ${OPENSHIFT_MONITRC}
   fi
 }
 
