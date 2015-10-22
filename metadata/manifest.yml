@@ -36,4 +36,4 @@ Endpoints:
   - Frontend: '/monit-status'
     Backend: '/'
 
-Source-Url: https://github.com/wassname/openshift-origin-cartridge-monit/archive/master.zip
+Source-Url: https://github.com/openshift-cartridges/openshift-origin-cartridge-monit/archive/master.zip
